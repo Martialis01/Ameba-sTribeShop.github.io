@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             price: "14.000dd",
 
             // Ścieżki do zdjęć
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_01.jpg",
 
             alt: "carcharodontosaurus - osobnik pierwszy",
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "13.000dd",
 
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_02.jpg",
 
             alt: "carcharodontosaurus - osobnik drugi",
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.600dd",
 
-            image: "miniatury/veilwyn.png",
+            image: "miniatury/Veilwyn.png",
             descriptionImage: "dinki/veilwyn_01.jpg",
 
             alt: "veilwyn - osobnik pierwszy",
@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.600dd",
 
-            image: "miniatury/titanoboa.png",
+            image: "miniatury/Titanoboa.png",
             descriptionImage: "dinki/titanoboa_01.jpg",
 
             alt: "Titanoboa - osobnik pierwszy",
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "20.000dd",
 
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_03.jpg",
 
             alt: "carcharodontosaurus - osobnik trzeci",
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "20.000dd",
 
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_04.jpg",
 
             alt: "carcharodontosaurus - osobnik czwarty",
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "5.300dd",
 
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_05.jpg",
 
             alt: "carcharodontosaurus - osobnik piąty",
@@ -139,7 +139,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "13.500dd",
 
-            image: "miniatury/carcharodontosaurus.png",
+            image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_06.jpg",
 
             alt: "carcharodontosaurus - osobnik szósty",
@@ -157,7 +157,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.700dd",
 
-            image: "miniatury/drakeling.png",
+            image: "miniatury/Drakeling.png",
             descriptionImage: "dinki/drakeling_01.jpg",
 
             alt: "drakeling - osobnik pierwszy",
@@ -175,7 +175,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.810dd",
 
-            image: "miniatury/rex.png",
+            image: "miniatury/Rex.png",
             descriptionImage: "dinki/rex_01.jpg",
 
             alt: "rex - osobnik pierwszy",
@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.800dd",
 
-            image: "miniatury/rex.png",
+            image: "miniatury/Rex.png",
             descriptionImage: "dinki/rex_02.jpg",
 
             alt: "rex - osobnik drugi",
