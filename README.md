@@ -54,7 +54,7 @@
             </a>
 
             <a href="about.html" class="main-button main-button-secondary">
-                Poznaj naszą ofertę
+                Poznaj nas
             </a>
           </div>
         </section>
