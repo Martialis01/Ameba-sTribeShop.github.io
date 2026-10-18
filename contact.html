@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="PL">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sklep Ameba's Tribe</title>
+
+    <meta name="description" content="Sklep internetowy Ameba's Tribe">
+    <meta name="author" content="Karol Baranowski">
+
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="Logo Ameby.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <section class="Logo">
+          <img  class="Logo1" src="Logo Ameby2.png" alt="Logo sklepu Ameba's Tribe" width="200" height="200">
+      </section>
+      <section class="Welcome_section">
+        <button class="Welcome_button" style="background-color: #171D18; color: #E8E6DC;"><link href="index.html"><h1 class="Welcome_h1">Witaj w sklepie Ameba's Tribe</h1></link></button>
+        <h3 class="Offer_h3">Przejrzyj naszą ofertę na sprzedaż dinków</h3>
+      </section>
+    </header>
+    <nav>
+      <button class="Nav_button" onclick="location.href='index.html'">Strona główna</button>
+      <button class="Nav_button" onclick="location.href='offer.html'">Oferta</button>
+      <button class="Nav_button" onclick="location.href='contact.html'">Kontakt</button>
+      <button class="Nav_button" onclick="location.href='about.html'">O nas</button>
+    </nav>
+<main class="contact-page">
+
+    <section class="contact-hero">
+        <p class="contact-eyebrow">
+            AMEBA'S TRIBE • MROCZNE ZAKAMARKI
+        </p>
+
+        <h1>Skontaktuj się z nami</h1>
+
+        <p class="contact-intro">
+            Masz pytanie dotyczące dinków, zamówienia lub naszej
+            oferty? Napisz do nas! Chętnie pomożemy Ci przygotować
+            się na kolejną przygodę w świecie ARK.
+        </p>
+    </section>
+
+    <section class="contact-content">
+
+        <div class="contact-info">
+            <h2>Jesteśmy tutaj, aby pomóc</h2>
+
+            <p>
+                Niezależnie od tego, czy potrzebujesz informacji
+                o ofercie, czy masz pytanie dotyczące zakupu,
+                wybierz najwygodniejszą dla siebie formę kontaktu.
+            </p>
+
+            <div class="contact-card">
+                <span class="contact-icon">✦</span>
+
+                <div>
+                    <h3>Discord</h3>
+                    <p>
+                        Dołącz do społeczności Mrocznych Zakamarków
+                        i skontaktuj się z nami.
+                    </p>
+
+                    <a href="https://discord.gg/7ehxWJbtD"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Dołącz do Discorda →
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-form-box">
+            <h2>Wyślij nam wiadomość</h2>
+
+            <p class="form-description">
+                Wypełnij formularz, a my wrócimy do Ciebie
+                tak szybko, jak to możliwe.
+            </p>
+
+            
+            <form class="contact-form"
+                    action="https://api.web3forms.com/submit"
+                    method="POST">
+
+                <input type="hidden"
+                    name="access_key"
+                    value="8e9067f2-bfc7-44bf-8ab2-eedcaa8aec9f">
+
+                <input type="hidden"
+                    name="subject"
+                    value="Nowa wiadomość — AMEBA'S TRIBE">
+
+                <input type="hidden"
+                    name="from_name"
+                    value="AMEBA'S TRIBE">
+
+                <label for="contact-name">Nick lub imię</label>
+                <input
+                    type="text"
+                    id="contact-name"
+                    name="name"
+                    placeholder="Jak mamy się do Ciebie zwracać?"
+                    autocomplete="name"
+                    required
+                >
+
+                <label for="contact-email">Adres e-mail</label>
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="email"
+                    placeholder="twoj@email.pl"
+                    autocomplete="email"
+                    required
+                >
+
+                <label for="contact-subject">Temat wiadomości</label>
+                <select id="contact-subject"
+                        name="subject"
+                        required>
+                    <option value="" disabled selected>
+                        Wybierz temat
+                    </option>
+                    <option value="order">Pytanie o zamówienie</option>
+                    <option value="dinosaurs">Oferta dinków</option>
+                    <option value="technical">Problem techniczny</option>
+                    <option value="other">Inne</option>
+                </select>
+
+                <label for="contact-message">Wiadomość</label>
+                <textarea
+                    id="contact-message"
+                    name="message"
+                    rows="5"
+                    placeholder="Napisz, w czym możemy pomóc..."
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Wyślij wiadomość →
+                </button>
+
+            </form>
+        </div>
+
+    </section>
+</main>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Informacje o sklepie -->
+        <div class="footer-brand">
+            <h2 class="footer-logo">ARK AMEBA'S MARKET</h2>
+
+            <p class="footer-description">
+                Znajdź swojego kolejnego towarzysza,
+                odkrywaj niezwykłe stworzenia i przygotuj się
+                na nowe przygody w świecie ARK.
+            </p>
+        </div>
+
+        <!-- Nawigacja -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Sklep</h3>
+
+            <nav class="footer-links">
+                <a href="offer.html">Wszystkie dinki</a>
+                <a href="offer.html?category=favorites">Popularne dinki</a>
+                <a href="offer.html?category=new">Nowości</a>
+            </nav>
+        </div>
+
+        <!-- Pomoc -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Pomoc</h3>
+
+            <nav class="footer-links">
+                <a href="contact.html">Kontakt</a>
+                <a href="terms.html">Regulamin</a>
+            </nav>
+        </div>
+
+        <!-- Społeczność -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Społeczność</h3>
+
+            <nav class="footer-links">
+                <a href="https://discord.gg/7ehxWJbtD"
+                   class="footer-discord"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Napisz do nas na Discord →  
+                </a>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Dolna część -->
+    <div class="footer-bottom">
+
+        <p class="footer-copyright">
+            © 2026 Ameba's Tribe.
+        </p>
+
+        <p class="footer-note">
+            Dla tych, którzy nie boją się mroku.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>

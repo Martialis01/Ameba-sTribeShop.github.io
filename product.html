@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="PL">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sklep Ameba's Tribe</title>
+
+    <meta name="description" content="Sklep internetowy Ameba's Tribe">
+    <meta name="author" content="Karol Baranowski">
+
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleartic.css">
+
+    <link rel="icon" href="Logo Ameby.png" type="image/x-icon">
+    <script src="produkt.js"></script>
+  </head>
+  <body>
+    <header>
+      <section class="Logo">
+          <img  class="Logo1" src="Logo Ameby2.png" alt="Logo sklepu Ameba's Tribe" width="200" height="200">
+      </section>
+      <section class="Welcome_section">
+        <button class="Welcome_button" style="background-color: #171D18; color: #E8E6DC;"><link href="index.html"><h1 class="Welcome_h1">Witaj w sklepie Ameba's Tribe</h1></link></button>
+        <h3 class="Offer_h3">Przejrzyj naszą ofertę na sprzedaż dinków</h3>
+      </section>
+    </header>
+    <nav>
+      <button class="Nav_button" onclick="location.href='index.html'">Strona główna</button>
+      <button class="Nav_button" onclick="location.href='offer.html'">Oferta</button>
+      <button class="Nav_button" onclick="location.href='contact.html'">Kontakt</button>
+      <button class="Nav_button" onclick="location.href='about.html'">O nas</button>
+    </nav>
+        <main class="product-page">
+
+        <!-- ŚCIEŻKA NAWIGACJI -->
+        <div class="product-breadcrumbs">
+            <a href="index.html">Strona główna</a>
+            <span> / </span>
+            <a href="offer.html">Oferta</a>
+            <span> / </span>
+            <span id="breadcrumb-name">Produkt</span>
+        </div>
+
+        <!-- GŁÓWNE INFORMACJE -->
+        <section class="product-details">
+
+            <div class="product-gallery">
+                <img
+                    id="product-image"
+                    src="carcharodontosaurus.png"
+                    alt="Zdjęcie produktu"
+                >
+            </div>
+
+            <div class="product-info">
+
+                <p class="product-label" id="product-category">
+                    
+                </p>
+
+                <h1 id="product-name"></h1>
+
+                <p class="product-short-description"
+                   id="product-short-description">
+                    
+                </p>
+
+                <div class="product-price" id="product-price">
+                    
+                </div>
+
+                <p class="product-availability">
+                    <span class="availability-dot"></span>
+                    Zapytaj o dostępność
+                </p>
+
+                <a href="https://discord.gg/7ehxWJbtD"
+                   class="product-contact-button" target="_blank" rel="noopener noreferrer"
+                   id="product-contact">
+                    Zapytaj o produkt →
+                </a>
+
+                <p class="product-small-note">
+                    <a href="https://discord.gg/7ehxWJbtD" style="color: #A5B58A; text-decoration: underline;">
+                        Masz pytania? Skontaktuj się z nami,
+                        aby ustalić szczegóły zakupu.
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+        <!-- OPIS PRODUKTU -->
+        <section class="product-description-section">
+            <h2>Opis produktu</h2>
+
+            <p id="product-description"></p>
+
+            <div id="product-description-image"></div>
+        </section>
+
+        <!-- STATYSTYKI -->
+        <section class="product-stats-section">
+
+            <h2>Informacje i statystyki</h2>
+
+            <div class="product-stats" id="product-stats">
+                <div class="stat-card">
+                    <span>Poziom</span>
+                    <strong id="stat-level">845</strong>
+                </div>
+
+                <div class="stat-card">
+                    <span>Płeć</span>
+                    <strong id="stat-sex">Samica ♀</strong>
+                </div>
+
+                <div class="stat-card">
+                    <span>Mutacje</span>
+                    <strong id="stat-mutations">98 zdrowie | 98 siła</strong>
+                </div>
+
+                <div class="stat-card">
+                    <span>Dodatkowe informacje</span>
+                    <strong id="stat-extra">Brak danych</strong>
+                </div>
+            </div>
+
+        </section>
+
+        <p style="text-align: center; margin-top: 20px;">
+            Ceny Dinozaurów podlegają negocjacji.<br> Były one wyliczane w kalkulatorze cenowym, dostępnym na stronie serwera.
+        </p>
+            <a href="offer.html" class="back-to-offer">
+                ← Wróć do oferty
+            </a>
+    </main>
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Informacje o sklepie -->
+        <div class="footer-brand">
+            <h2 class="footer-logo">ARK AMEBA'S MARKET</h2>
+
+            <p class="footer-description">
+                Znajdź swojego kolejnego towarzysza,
+                odkrywaj niezwykłe stworzenia i przygotuj się
+                na nowe przygody w świecie ARK.
+            </p>
+        </div>
+
+        <!-- Nawigacja --><!--
+        <div class="footer-column">
+            <h3 class="footer-heading">Sklep</h3>
+
+            <nav class="footer-links">
+                <a href="offer.html?category=dinki">dinki</a>
+                <a href="offer.html?category=bronie">bronie</a>
+                <a href="offer.html?category=ciuszki">lumpeks</a>
+                <a href="offer.html?category=narzedzia">narzędzia</a>
+                <a href="offer.html?category=siodla">siodła</a>
+            </nav>
+        </div>
+    -->
+
+        <!-- Pomoc -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Pomoc</h3>
+
+            <nav class="footer-links">
+                <a href="contact.html">Kontakt</a>
+                <a href="terms.html">Regulamin</a>
+            </nav>
+        </div>
+
+        <!-- Społeczność -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Społeczność</h3>
+
+            <nav class="footer-links">
+                <a href="https://discord.gg/7ehxWJbtD"
+                   class="footer-discord"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Napisz do nas na Discord →  
+                </a>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Dolna część -->
+    <div class="footer-bottom">
+
+        <p class="footer-copyright">
+            © 2026 Ameba's Tribe.
+        </p>
+
+        <p class="footer-note">
+            Dla tych, którzy nie boją się mroku.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>

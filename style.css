@@ -1,0 +1,1170 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+/* ------------ NAGŁÓWEK ------------ */
+
+header {
+    background-color: #171D18;
+    color: #E8E6DC;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+/* ------------ LOGO ------------ */
+
+.Logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: #171D18;
+    color: #E8E6DC;
+
+    padding: 20px 5%;
+}
+
+/* Obraz logo */
+
+img.Logo1 {
+    display: block;
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+/* ------------ SEKCJA POWITALNA ------------ */
+
+.Welcome_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+
+    background-color: #171D18;
+    color: #E8E6DC;
+
+    padding: 25px 20px 40px;
+    text-align: center;
+}
+
+/* ------------ NAGŁÓWEK POWITALNY ------------ */
+
+h1.Welcome_h1 {
+    font-size: clamp(28px, 4vw, 46px);
+    font-weight: 900;
+    line-height: 1.2;
+    text-align: center;
+
+    width: 100%;
+    max-width: 900px;
+    margin: 0;
+
+    color: #E8E6DC;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ------------ OFERTA ------------ */
+
+h3.Offer_h3 {
+    font-size: clamp(16px, 2vw, 22px);
+    font-weight: 500;
+    line-height: 1.6;
+    text-align: center;
+
+    max-width: 700px;
+    margin: 0;
+
+    color: #A5B58A;
+}
+
+/* ------------ PRZYCISK ------------ */
+
+button.Welcome_button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    width: auto;
+    min-width: 200px;
+    padding: 15px 28px;
+
+    background-color: #A5B58A;
+    color: #171D18;
+
+    border: 1px solid #A5B58A;
+    border-radius: 4px;
+
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+/* Efekt najechania */
+
+button.Welcome_button:hover {
+    background-color: #C0CEAD;
+    border-color: #C0CEAD;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(165, 181, 138, 0.18);
+}
+
+/* Kliknięcie */
+
+button.Welcome_button:active {
+    transform: translateY(0);
+}
+
+/* Fokus klawiatury */
+
+button.Welcome_button:focus-visible {
+    outline: 2px solid #E8E6DC;
+    outline-offset: 4px;
+}
+
+/* ------------ TELEFONY ------------ */
+
+@media (max-width: 600px) {
+    .Logo {
+        gap: 12px;
+        padding: 16px 5%;
+    }
+
+    img.Logo1 {
+        width: 65px;
+        height: 65px;
+    }
+
+    .Welcome_section {
+        padding: 25px 18px 35px;
+    }
+
+    h1.Welcome_h1 {
+        letter-spacing: 0;
+    }
+
+    button.Welcome_button {
+        width: 100%;
+        max-width: 320px;
+        box-sizing: border-box;
+    }
+}
+
+/*-----------Navbar----------*/
+nav {
+    background-color: #171D18;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    padding: auto;
+    padding-left: auto;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 20px;
+}
+nav ul li a {
+    color: #e9e6dc;
+    text-decoration: none;
+    font-size: 18px;
+}
+/*-----------Navbutton----------*/
+
+button.Nav_button {
+    background-color: #171D18;
+    color: #E8E6DC;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 12px 18px;
+    margin-left: 0;
+
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+
+    transition:
+        background-color 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease;
+}
+
+/* Efekt po najechaniu */
+button.Nav_button:hover {
+    background-color: #222923;
+    color: #A5B58A;
+    border-color: rgba(165, 181, 138, 0.3);
+}
+
+/* Aktywny przycisk */
+button.Nav_button:active {
+    background-color: #343D32;
+    color: #E8E6DC;
+}
+
+/* Widoczny fokus klawiatury */
+button.Nav_button:focus-visible {
+    outline: 2px solid #A5B58A;
+    outline-offset: 3px;
+}
+
+main {
+    position: relative;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 8%;
+    overflow: hidden;
+
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(17, 21, 17, 0.96) 0%,
+            rgba(34, 41, 35, 0.82) 48%,
+            rgba(17, 21, 17, 0.30) 100%
+        );
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #E8E6DC;
+}   
+
+main.blok {
+    position: relative;
+    min-height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 80px 8%;
+    overflow: hidden;
+
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(17, 21, 17, 0.96) 0%,
+            rgba(34, 41, 35, 0.82) 48%,
+            rgba(17, 21, 17, 0.30) 100%
+        );
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    color: #E8E6DC;
+}   
+
+/* Zawartość sekcji */
+
+.main-content {
+    position: relative;
+    z-index: 2;
+    max-width: 680px;
+}
+
+/* Mały napis nad nagłówkiem */
+
+.main-subtitle {
+    color: #A5B58A;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+/* Główny nagłówek */
+
+.main-title {
+    color: #E8E6DC;
+    font-size: clamp(38px, 5vw, 72px);
+    font-weight: 900;
+    line-height: 1.05;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+}
+
+/* Wyróżniony fragment nagłówka */
+
+.main-title span {
+    display: block;
+    color: #A5B58A;
+}
+
+/* Opis */
+
+.main-description {
+    max-width: 560px;
+    color: #C5CCC0;
+    font-size: 17px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+/* Kontener przycisków */
+
+.main-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Główny przycisk */
+
+.main-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+    padding: 16px 28px;
+    background: #A5B58A;
+    color: #171D18;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    border: 1px solid #A5B58A;
+    border-radius: 4px;
+
+    transition:
+        background 0.3s ease,
+        color 0.3s ease,
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+/* Efekt po najechaniu */
+
+.main-button:hover {
+    background: #C0CEAD;
+    border-color: #C0CEAD;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(165, 181, 138, 0.2);
+}
+
+/* Strzałka w przycisku */
+
+.main-button .arrow {
+    font-size: 20px;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.main-button:hover .arrow {
+    transform: translateX(5px);
+}
+
+/* Przycisk dodatkowy */
+
+.main-button-secondary {
+    background: transparent;
+    color: #E8E6DC;
+    border-color: rgba(232, 230, 220, 0.35);
+}
+
+.main-button-secondary:hover {
+    background: rgba(232, 230, 220, 0.08);
+    color: #FFFFFF;
+    border-color: #A5B58A;
+    box-shadow: none;
+}
+
+/* Responsywność — telefony */
+
+@media (max-width: 768px) {
+    .main-section {
+        min-height: 560px;
+        padding: 65px 7%;
+        background-position: 62% center;
+    }
+
+    .main-content {
+        max-width: 100%;
+    }
+
+    .main-subtitle {
+        font-size: 11px;
+        letter-spacing: 2.5px;
+    }
+
+    .main-title {
+        font-size: clamp(34px, 9vw, 52px);
+        letter-spacing: -0.5px;
+    }
+
+    .main-description {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .main-buttons {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .main-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+
+/* ===== FOOTER ===== */
+
+.footer {
+    background: #111511;
+    color: #E8E6DC;
+    border-top: 1px solid rgba(165, 181, 138, 0.2);
+    padding: 65px 8% 0;
+    font-family: inherit;
+}
+
+/* Główna zawartość stopki */
+
+.footer-container {
+    max-width: 1400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+/* Nazwa sklepu */
+
+.footer-logo {
+    color: #A5B58A;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 18px;
+}
+
+/* Opis sklepu */
+
+.footer-description {
+    max-width: 320px;
+    color: #A8AEA4;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0;
+}
+
+/* Nagłówki kolumn */
+
+.footer-heading {
+    color: #E8E6DC;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 5px 0 22px;
+}
+
+/* Listy linków */
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+}
+
+/* Linki */
+
+.footer-links a {
+    color: #A8AEA4;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.25s ease,
+                transform 0.25s ease;
+}
+
+.footer-links a:hover {
+    color: #A5B58A;
+    transform: translateX(4px);
+}
+
+/* Dolny pasek stopki */
+
+.footer-bottom {
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 75px;
+    border-top: 1px solid rgba(232, 230, 220, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Copyright */
+
+.footer-copyright {
+    color: #737B70;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* Dodatkowy tekst */
+
+.footer-note {
+    color: #737B70;
+    font-size: 12px;
+    text-align: right;
+}
+
+/* Link do Discorda */
+
+.footer-discord {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #A5B58A;
+    font-weight: 700;
+}
+
+/* Efekt hover Discorda */
+
+.footer-discord:hover {
+    color: #C0CEAD;
+}
+
+/* ===== RESPONSYWNOŚĆ ===== */
+
+@media (max-width: 900px) {
+    .footer-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 40px 30px;
+    }
+}
+
+@media (max-width: 550px) {
+    .footer {
+        padding: 45px 6% 0;
+    }
+
+    .footer-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding-bottom: 35px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 20px 0;
+        gap: 10px;
+    }
+
+    .footer-note {
+        text-align: left;
+    }
+}
+
+
+/* ===== STRONA KONTAKTOWA ===== */
+
+.contact-page {
+    background: #171D18;
+    color: #E8E6DC;
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+/* ===== SEKCJA TYTUŁOWA ===== */
+
+.contact-hero {
+    position: relative;
+    text-align: center;
+    padding: 90px 20px 70px;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(17, 21, 17, 0.2),
+            #171D18
+        ),
+        linear-gradient(
+            135deg,
+            #263329,
+            #171D18 70%
+        );
+}
+
+.contact-eyebrow {
+    color: #A5B58A;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.contact-hero h1 {
+    font-size: clamp(32px, 5vw, 54px);
+    font-weight: 900;
+    line-height: 1.15;
+    text-transform: uppercase;
+    margin: 0 0 22px;
+}
+
+.contact-intro {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #B9C2B4;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* ===== UKŁAD TREŚCI ===== */
+
+.contact-content {
+    width: min(1100px, 84%);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 55px;
+    align-items: start;
+    padding-top: 35px;
+}
+
+.contact-info h2,
+.contact-form-box h2 {
+    font-size: 25px;
+    line-height: 1.3;
+    margin: 0 0 18px;
+}
+
+.contact-info > p,
+.form-description {
+    color: #A8AEA4;
+    font-size: 14px;
+    line-height: 1.8;
+    margin: 0 0 28px;
+}
+
+/* ===== KARTY KONTAKTOWE ===== */
+
+.contact-card {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    background: #222923;
+    border: 1px solid rgba(165, 181, 138, 0.15);
+    border-radius: 6px;
+    padding: 22px;
+    margin-top: 18px;
+    transition:
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.contact-card:hover {
+    border-color: #A5B58A;
+    transform: translateY(-3px);
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 42px;
+    height: 42px;
+    background: #343D32;
+    color: #A5B58A;
+    border-radius: 4px;
+    font-size: 23px;
+}
+
+.contact-card h3 {
+    font-size: 17px;
+    margin: 0 0 8px;
+}
+
+.contact-card p {
+    color: #A8AEA4;
+    font-size: 13px;
+    line-height: 1.7;
+    margin: 0 0 12px;
+}
+
+.contact-card a {
+    color: #A5B58A;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: #C0CEAD;
+}
+
+/* ===== FORMULARZ ===== */
+
+.contact-form-box {
+    background: #222923;
+    border: 1px solid rgba(165, 181, 138, 0.18);
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form label {
+    color: #E8E6DC;
+    font-size: 13px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    background: #171D18;
+    color: #E8E6DC;
+    border: 1px solid #414B40;
+    border-radius: 4px;
+    padding: 13px 14px;
+    font: inherit;
+    font-size: 14px;
+    outline: none;
+    transition:
+        border-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #737B70;
+}
+
+.contact-form input:focus,
+.contact-form select:focus,
+.contact-form textarea:focus {
+    border-color: #A5B58A;
+    box-shadow: 0 0 0 3px rgba(165, 181, 138, 0.1);
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 130px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 15px 20px;
+    background: #A5B58A;
+    color: #171D18;
+    border: 1px solid #A5B58A;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:
+        background 0.25s ease,
+        transform 0.25s ease;
+}
+
+.contact-form button:hover {
+    background: #C0CEAD;
+    transform: translateY(-2px);
+}
+
+/* ===== TELEFONY I TABLETY ===== */
+
+@media (max-width: 800px) {
+    .contact-hero {
+        padding: 65px 22px 45px;
+    }
+
+    .contact-content {
+        width: 90%;
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .contact-form-box {
+        padding: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact-eyebrow {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .contact-card {
+        padding: 17px;
+        gap: 12px;
+    }
+
+    .contact-form-box {
+        padding: 18px;
+    }
+}
+
+
+/* =========================================
+   RESPONSYWNOŚĆ — POPRAWKI GLOBALNE
+   ========================================= */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: clip;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    overflow-x: clip;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* =========================================
+   OBRAZKI W OFERCIE
+   ========================================= */
+
+/* Obrazki nie mogą wychodzić poza swoje karty */
+.offer-card,
+.product-card,
+.dino-card {
+    min-width: 0;
+    overflow: hidden;
+}
+
+/* Uniwersalne ustawienia obrazków w kartach */
+.offer-card img,
+.product-card img,
+.dino-card img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* Jeśli obrazki są częścią galerii lub mają
+   jednakowy rozmiar w kartach */
+.offer-card .product-image,
+.product-card .product-image,
+.dino-card .product-image {
+    width: 100%;
+    height: clamp(180px, 24vw, 300px);
+    object-fit: contain;
+    object-position: center;
+    background-color: #171D18;
+}
+
+/* Kontener zdjęcia — przydatny przy różnych
+   proporcjach oryginalnych grafik */
+.offer-card .image-container,
+.product-card .image-container,
+.dino-card .image-container {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171D18;
+}
+
+.offer-card .image-container img,
+.product-card .image-container img,
+.dino-card .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* =========================================
+   KARTY OFERTY
+   ========================================= */
+
+.offer-card,
+.product-card,
+.dino-card {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid rgba(165, 181, 138, 0.2);
+    border-radius: 6px;
+    background-color: #222923;
+    color: #E8E6DC;
+}
+
+.offer-card h3,
+.product-card h3,
+.dino-card h3 {
+    overflow-wrap: anywhere;
+}
+
+.offer-card p,
+.product-card p,
+.dino-card p {
+    line-height: 1.65;
+    overflow-wrap: anywhere;
+}
+
+/* =========================================
+   SIATKA OFERTY
+   ========================================= */
+
+/* Dodaj klasę offer-grid do kontenera kart,
+   jeśli jeszcze jej nie posiada */
+.offer-grid,
+.products-grid,
+.dino-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    width: 100%;
+    max-width: 1400px;
+    margin-inline: auto;
+    padding: 30px 5%;
+}
+
+/* =========================================
+   NAWIGACJA
+   ========================================= */
+
+nav {
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    padding: 10px 4%;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px 18px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 8px 5px;
+    font-size: 16px;
+}
+
+/* =========================================
+   SEKCJA GŁÓWNA
+   ========================================= */
+
+main,
+main.blok {
+    width: 100%;
+    min-width: 0;
+    min-height: 650px;
+    padding: clamp(40px, 6vw, 80px) 8%;
+}
+
+.main-content {
+    width: 100%;
+    max-width: 680px;
+    min-width: 0;
+}
+
+.main-title {
+    overflow-wrap: anywhere;
+}
+
+/* =========================================
+   TABLETY
+   ========================================= */
+
+@media (max-width: 1000px) {
+    .offer-grid,
+    .products-grid,
+    .dino-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 20px;
+        padding-inline: 4%;
+    }
+
+    .footer-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 35px 25px;
+    }
+
+    .contact-content {
+        width: 90%;
+        gap: 30px;
+    }
+}
+
+/* =========================================
+   TELEFONY
+   ========================================= */
+
+@media (max-width: 600px) {
+    .offer-grid,
+    .products-grid,
+    .dino-grid {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 20px;
+        padding: 20px 5%;
+    }
+
+    .offer-card .product-image,
+    .product-card .product-image,
+    .dino-card .product-image {
+        height: 240px;
+    }
+
+    .offer-card .image-container,
+    .product-card .image-container,
+    .dino-card .image-container {
+        aspect-ratio: 4 / 3;
+    }
+
+    nav {
+        padding: 8px 3%;
+    }
+
+    nav ul {
+        gap: 4px 10px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    button.Nav_button {
+        width: auto;
+        max-width: 100%;
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+
+    main,
+    main.blok {
+        min-height: 560px;
+        padding: 50px 6%;
+    }
+
+    .main-subtitle {
+        line-height: 1.7;
+    }
+
+    .main-title {
+        font-size: clamp(32px, 9vw, 48px);
+        letter-spacing: -0.5px;
+    }
+
+    .main-description {
+        font-size: 15px;
+    }
+
+    .main-buttons {
+        width: 100%;
+    }
+
+    .footer-container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .contact-content {
+        grid-template-columns: minmax(0, 1fr);
+    }
+}
+
+/* Bardzo wąskie telefony */
+@media (max-width: 360px) {
+    .offer-grid,
+    .products-grid,
+    .dino-grid {
+        padding-inline: 12px;
+    }
+
+    .offer-card .product-image,
+    .product-card .product-image,
+    .dino-card .product-image {
+        height: 190px;
+    }
+
+    img.Logo1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    .Logo {
+        gap: 10px;
+    }
+}

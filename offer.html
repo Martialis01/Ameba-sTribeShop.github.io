@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="PL">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sklep Ameba's Tribe</title>
+
+    <meta name="description" content="Sklep internetowy Ameba's Tribe">
+    <meta name="author" content="Karol Baranowski">
+
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleoffer.css">
+
+    <link rel="icon" href="Logo Ameby.png" type="image/x-icon">
+  </head>
+  <body>
+    <header>
+      <section class="Logo">
+          <img  class="Logo1" src="Logo Ameby2.png" alt="Logo sklepu Ameba's Tribe" width="200" height="200">
+      </section>
+      <section class="Welcome_section">
+        <button class="Welcome_button" style="background-color: #171D18; color: #E8E6DC;"><link href="index.html"><h1 class="Welcome_h1">Witaj w sklepie Ameba's Tribe</h1></link></button>
+        <h3 class="Offer_h3">Przejrzyj naszą ofertę na sprzedaż dinków</h3>
+      </section>
+    </header>
+    <nav>
+      <button class="Nav_button" onclick="location.href='index.html'">Strona główna</button>
+      <button class="Nav_button" onclick="location.href='offer.html'">Oferta</button>
+      <button class="Nav_button" onclick="location.href='contact.html'">Kontakt</button>
+      <button class="Nav_button" onclick="location.href='about.html'">O nas</button>
+    </nav>
+    <main>
+        <section class="offer-page" id="oferta">
+
+    <div class="offer-heading">
+        <p class="offer-eyebrow">AMEBA'S TRIBE</p>
+        <h1>NASZA OFERTA</h1>
+        <p>Znajdź wszystko, czego potrzebujesz, by przetrwać w ARK.</p>
+    </div>
+
+    <!-- Kategorie produktów -->
+    <nav class="offer-filters" aria-label="Kategorie oferty">
+        <button class="filter-button active" type="button"
+                data-filter="all" aria-pressed="false">Wszystko</button>
+        <button class="filter-button" type="button"
+                data-filter="dinki" aria-pressed="false">Dinki</button>
+        <button class="filter-button" type="button"
+                data-filter="bronie" aria-pressed="false">Bronie</button>
+        <button class="filter-button" type="button"
+                data-filter="ciuszki" aria-pressed="false">lumpeks</button>
+        <button class="filter-button" type="button"
+                data-filter="narzedzia" aria-pressed="false">Narzędzia</button>
+        <button class="filter-button" type="button"
+                data-filter="siodla" aria-pressed="false">Siodła</button>
+    </nav>
+
+    <!-- Lista produktów -->
+    <div class="offer-products">
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>CARCHA ♀</h2>
+            <p>Level: 845</p>
+            <p class="product-price">Cena: 14.000dd</p>
+            <a href="product.html?id=carcha_01"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>CARCHA ♀</h2>
+            <p>Level: 870</p>
+            <p class="product-price">Cena: 13.000dd</p>
+            <a href="product.html?id=carcha_02"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/veilwyn.png" alt="Veilwyn" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>VEILWYN ♂</h2>
+            <p>Level: 510</p>
+            <p class="product-price">Cena: 1.600dd</p>
+            <a href="product.html?id=veilwyn_01"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/titanoboa.png" alt="Titanoboa" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>ABBERANT TITANOBOA ⚥</h2>
+            <p>Level: 500</p>
+            <p class="product-price">Cena: 1.600dd </p>
+            <a href="product.html?id=titanoboa_01"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Carcha ♂</h2>
+            <p>Level: 1052</p>
+            <p class="product-price">Cena: 20.000dd</p>
+            <a href="product.html?id=carcha_04"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Carcha ♂</h2>
+            <p>Level: 1052</p>
+            <p class="product-price">Cena: 20.000dd</p>
+            <a href="product.html?id=carcha_03"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Carcha ♀</h2>
+            <p>Level: 535</p>
+            <p class="product-price">Cena: 5.300dd</p>
+            <a href="product.html?id=carcha_05"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/carcharodontosaurus.png" alt="Carcharodontosaurus" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Carcha ♂</h2>
+            <p>Level: 804</p>
+            <p class="product-price">Cena: 13.500dd</p>
+            <a href="product.html?id=carcha_06"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/drakeling.png" alt="Drakeling" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Drakeling ♂</h2>
+            <p>Level: 505</p>
+            <p class="product-price">Cena: 1.700dd</p>
+            <a href="product.html?id=drakeling_01"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/rex.png" alt="Rex" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Rex ♂</h2>
+            <p>Level: 448</p>
+            <p class="product-price">Cena: 1.810dd</p>
+            <a href="product.html?id=rex_01"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+        <article class="product-card" data-category="dinki">
+            <div class="product-image"><img src="miniatury/rex.png" alt="Rex" style="width: 90%; height: 90%;"></div>
+            <p class="product-category">DINKI</p>
+            <h2>Rex ♀</h2>
+            <p>Level: 434</p>
+            <p class="product-price">Cena: 1.800dd</p>
+            <a href="product.html?id=rex_02"><button class="product-button" type="button">Zobacz produkt →</button></a>
+        </article>
+
+    </div>
+
+    <p class="offer-empty" hidden>Brak produktów w tej kategorii.<br> Jesteśmy w trakcie dodawania nowych produktów.<br> Możesz sprawdzić inne kategorie lub zwrócić się do nas za informacjami o nadchodzących dostawach.</p>
+
+</section>
+
+
+
+<script src="scriptoffer.js" defer></script>
+
+
+
+    </main>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <!-- Informacje o sklepie -->
+        <div class="footer-brand">
+            <h2 class="footer-logo">ARK AMEBA'S MARKET</h2>
+
+            <p class="footer-description">
+                Znajdź swojego kolejnego towarzysza,
+                odkrywaj niezwykłe stworzenia i przygotuj się
+                na nowe przygody w świecie ARK.
+            </p>
+        </div>
+
+        <!-- Nawigacja --><!--
+        <div class="footer-column">
+            <h3 class="footer-heading">Sklep</h3>
+
+            <nav class="footer-links">
+                <a href="offer.html?category=dinki">dinki</a>
+                <a href="offer.html?category=bronie">bronie</a>
+                <a href="offer.html?category=ciuszki">lumpeks</a>
+                <a href="offer.html?category=narzedzia">narzędzia</a>
+                <a href="offer.html?category=siodla">siodła</a>
+            </nav>
+        </div>
+    -->
+
+        <!-- Pomoc -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Pomoc</h3>
+
+            <nav class="footer-links">
+                <a href="contact.html">Kontakt</a>
+                <a href="terms.html">Regulamin</a>
+            </nav>
+        </div>
+
+        <!-- Społeczność -->
+        <div class="footer-column">
+            <h3 class="footer-heading">Społeczność</h3>
+
+            <nav class="footer-links">
+                <a href="https://discord.gg/7ehxWJbtD"
+                   class="footer-discord"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Napisz do nas na Discord →  
+                </a>
+            </nav>
+        </div>
+
+    </div>
+
+    <!-- Dolna część -->
+    <div class="footer-bottom">
+
+        <p class="footer-copyright">
+            © 2026 Ameba's Tribe.
+        </p>
+
+        <p class="footer-note">
+            Dla tych, którzy nie boją się mroku.
+        </p>
+
+    </div>
+
+</footer>
+</body>
+</html>

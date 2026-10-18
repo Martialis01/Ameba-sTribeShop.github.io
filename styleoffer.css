@@ -1,0 +1,193 @@
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+
+
+/* Główna sekcja oferty */
+.offer-page {
+    background-color: #222923;
+    color: #E8E6DC;
+    min-height: 100vh;
+    padding: 60px 6%;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Nagłówek oferty */
+.offer-heading {
+    text-align: center;
+    margin: 0 auto 40px;
+    max-width: 750px;
+}
+
+.offer-eyebrow {
+    color: #A5B58A;
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.offer-heading h1 {
+    font-size: clamp(30px, 4vw, 48px);
+    margin: 12px 0;
+    letter-spacing: 2px;
+}
+
+.offer-heading > p:last-child {
+    color: #C7CBBF;
+    line-height: 1.7;
+}
+
+/* Pasek kategorii */
+.offer-filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 auto 45px;
+    padding: 20px 0;
+    border-top: 1px solid #465043;
+    border-bottom: 1px solid #465043;
+    min-height: 90px;
+}
+
+.filter-button {
+    background-color: transparent;
+    color: #E8E6DC;
+    border: 1px solid #59634F;
+    padding: 12px 22px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.filter-button:hover,
+.filter-button.active {
+    background-color: #A5B58A;
+    color: #171D18;
+    border-color: #A5B58A;
+}
+
+.filter-button:focus-visible,
+.product-button:focus-visible {
+    outline: 2px solid #C0CEAD;
+    outline-offset: 4px;
+}
+
+/* Siatka produktów */
+.offer-products {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.product-card {
+    background-color: #343D32;
+    border: 1px solid #465043;
+    padding: 24px;
+    min-width: 0;
+    box-sizing: border-box;
+    transition: border-color 0.25s, transform 0.25s;
+}
+
+.product-card:hover {
+    border-color: #A5B58A;
+    transform: translateY(-4px);
+}
+
+.product-image {
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222923;
+    font-size: 70px;
+    margin-bottom: 22px;
+}
+
+.product-category {
+    color: #A5B58A;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.product-card h2 {
+    font-size: 23px;
+    margin: 10px 0;
+}
+
+.product-card > p:not(.product-category):not(.product-price) {
+    color: #C7CBBF;
+    line-height: 1.6;
+    min-height: 50px;
+}
+
+.product-price {
+    color: #C0CEAD;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.product-button {
+    width: 100%;
+    padding: 13px;
+    background-color: #A5B58A;
+    border: 1px solid #A5B58A;
+    color: #171D18;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.product-button:hover {
+    background-color: #C0CEAD;
+    border-color: #C0CEAD;
+}
+
+.offer-empty {
+    text-align: center;
+    padding: 35px 0;
+    color: #C7CBBF;
+}
+
+/* Ukrywanie produktów, które nie pasują do filtra */
+.product-card[hidden] {
+    display: none !important;
+}
+
+/* Tablet */
+@media (max-width: 950px) {
+    .offer-products {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Telefon */
+@media (max-width: 600px) {
+    .offer-page {
+        padding: 40px 5%;
+    }
+
+    .offer-products {
+        grid-template-columns: 1fr;
+    }
+
+    .offer-filters {
+        gap: 8px;
+    }
+
+    .filter-button {
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+}
