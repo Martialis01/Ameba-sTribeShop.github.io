@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_02: {
             name: "carcharodontosaurus ♀",
             category: "Dinki",
-            price: "13.000dd",
+            price: "14.500dd",
 
             image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_02.jpg",
@@ -137,7 +137,7 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_06: {
             name: "carcharodontosaurus ♂",
             category: "Dinki",
-            price: "13.500dd",
+            price: "13.000dd",
 
             image: "miniatury/Carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_06.jpg",
