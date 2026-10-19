@@ -10,10 +10,10 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_01: {
             name: "carcharodontosaurus ♀",
             category: "Dinki",
-            price: "14.000dd",
+            price: "15.430dd",
 
             // Ścieżki do zdjęć
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_01.jpg",
 
             alt: "carcharodontosaurus - osobnik pierwszy",
@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_02: {
             name: "carcharodontosaurus ♀",
             category: "Dinki",
-            price: "14.500dd",
+            price: "16.030dd",
 
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_02.jpg",
 
             alt: "carcharodontosaurus - osobnik drugi",
@@ -47,9 +47,9 @@ document.addEventListener("DOMContentLoaded", function () {
         veilwyn_01: {
             name: "veilwyn ♂",
             category: "Dinki",
-            price: "1.600dd",
+            price: "1.810dd",
 
-            image: "miniatury/Veilwyn.png",
+            image: "miniatury/veilwyn.png",
             descriptionImage: "dinki/veilwyn_01.jpg",
 
             alt: "veilwyn - osobnik pierwszy",
@@ -65,9 +65,9 @@ document.addEventListener("DOMContentLoaded", function () {
         titanoboa_01: {
             name: "Abberant Titanoboa ⚥",
             category: "Dinki",
-            price: "1.600dd",
+            price: "1.730dd",
 
-            image: "miniatury/Titanoboa.png",
+            image: "miniatury/titanoboa.png",
             descriptionImage: "dinki/titanoboa_01.jpg",
 
             alt: "Titanoboa - osobnik pierwszy",
@@ -83,9 +83,9 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_03: {
             name: "carcharodontosaurus ♂",
             category: "Dinki",
-            price: "20.000dd",
+            price: "21.580dd",
 
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_03.jpg",
 
             alt: "carcharodontosaurus - osobnik trzeci",
@@ -101,9 +101,9 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_04: {
             name: "carcharodontosaurus ♂",
             category: "Dinki",
-            price: "20.000dd",
+            price: "21.580dd",
 
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_04.jpg",
 
             alt: "carcharodontosaurus - osobnik czwarty",
@@ -119,9 +119,9 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_05: {
             name: "carcharodontosaurus ♀",
             category: "Dinki",
-            price: "5.300dd",
+            price: "5.640dd",
 
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_05.jpg",
 
             alt: "carcharodontosaurus - osobnik piąty",
@@ -137,9 +137,9 @@ document.addEventListener("DOMContentLoaded", function () {
         carcha_06: {
             name: "carcharodontosaurus ♂",
             category: "Dinki",
-            price: "13.000dd",
+            price: "14.450dd",
 
-            image: "miniatury/Carcharodontosaurus.png",
+            image: "miniatury/carcharodontosaurus.png",
             descriptionImage: "dinki/carcha_06.jpg",
 
             alt: "carcharodontosaurus - osobnik szósty",
@@ -155,9 +155,9 @@ document.addEventListener("DOMContentLoaded", function () {
         drakeling_01: {
             name: "drakeling ♂",
             category: "Dinki",
-            price: "1.700dd",
+            price: "1.970dd",
 
-            image: "miniatury/Drakeling.png",
+            image: "miniatury/drakeling.png",
             descriptionImage: "dinki/drakeling_01.jpg",
 
             alt: "drakeling - osobnik pierwszy",
@@ -173,9 +173,9 @@ document.addEventListener("DOMContentLoaded", function () {
         rex_01: {
             name: "rex ♂",
             category: "Dinki",
-            price: "1.810dd",
+            price: "2.090dd",
 
-            image: "miniatury/Rex.png",
+            image: "miniatury/rex.png",
             descriptionImage: "dinki/rex_01.jpg",
 
             alt: "rex - osobnik pierwszy",
@@ -191,9 +191,9 @@ document.addEventListener("DOMContentLoaded", function () {
         rex_02: {
             name: "rex ♀",
             category: "Dinki",
-            price: "1.800dd",
+            price: "2.000dd",
 
-            image: "miniatury/Rex.png",
+            image: "miniatury/rex.png",
             descriptionImage: "dinki/rex_02.jpg",
 
             alt: "rex - osobnik drugi",
@@ -204,6 +204,222 @@ document.addEventListener("DOMContentLoaded", function () {
             sex: "samica ♀",
             mutations: "brak",
             extra: "otrzymasz podstawowe siodło"
+        },
+
+        drakeling_02: {
+            name: "drakeling ♀",
+            category: "Dinki",
+            price: "2.100dd",
+
+            image: "miniatury/drakeling.png",
+            descriptionImage: "dinki/drakeling_02.jpg",
+
+            alt: "drakeling - osobnik drugi",
+
+            shortDescription: "drakeling dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "517",
+            sex: "samica ♀",
+            mutations: "2 udźwig | 2 stamina",
+            extra: "brak"
+        },
+
+        carcha_07: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "15.240dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_07.jpg",
+
+            alt: "carcharodontosaurus - osobnik drugi",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "837",
+            sex: "samiec ♂",
+            mutations: "98 udźwig | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        deinosuchus_01: {
+            name: "deinosuchus ♂",
+            category: "Dinki",
+            price: "3.030dd",
+
+            image: "miniatury/deinosuchus.png",
+            descriptionImage: "dinki/deinosuchus_01.jpg",
+
+            alt: "deinosuchus - osobnik pierwszy",
+
+            shortDescription: "deinosuchus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "500",
+            sex: "samiec ♂",
+            mutations: "34 zdrowie",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        drakeling_03: {
+            name: "drakeling ♀",
+            category: "Dinki",
+            price: "2.020dd",
+
+            image: "miniatury/drakeling.png",
+            descriptionImage: "dinki/drakeling_03.jpg",
+
+            alt: "drakeling - osobnik trzeci",
+
+            shortDescription: "drakeling dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "510",
+            sex: "samica ♀",
+            mutations: "brak",
+            extra: "brak"
+        },
+
+        drakeling_04: {
+            name: "drakeling ♂",
+            category: "Dinki",
+            price: "2.020dd",
+
+            image: "miniatury/drakeling.png",
+            descriptionImage: "dinki/drakeling_04.jpg",
+
+            alt: "drakeling - osobnik czwarty",
+
+            shortDescription: "drakeling dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "510",
+            sex: "samiec ♂",
+            mutations: "brak",
+            extra: "brak"
+        },
+
+        carcha_08: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "21.580dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_08.jpg",
+
+            alt: "carcharodontosaurus - osobnik ósmy",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "1052",
+            sex: "samiec ♂",
+            mutations: "98 zdrowie | 98 udźwig | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        carcha_09: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "21.580dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_09.jpg",
+
+            alt: "carcharodontosaurus - osobnik dziewiąty",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "1052",
+            sex: "samiec ♂",
+            mutations: "98 zdrowie | 98 udźwig | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        x_con_01: {
+            name: "x-con ♂",
+            category: "Dinki",
+            price: "2.560dd",
+
+            image: "miniatury/x-con.png",
+            descriptionImage: "dinki/x-con_01.jpg",
+
+            alt: "x-con - osobnik pierwszy",
+
+            shortDescription: "x-con dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "513",
+            sex: "samiec ♂",
+            mutations: "brak",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        carcha_10: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "20.400dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_10.jpg",
+
+            alt: "carcharodontosaurus - osobnik dziesiąty",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "1003",
+            sex: "samiec ♂",
+            mutations: "98 zdrowie | 98 udźwig | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        carcha_11: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "20.400dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_11.jpg",
+
+            alt: "carcharodontosaurus - osobnik jedenasty",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "1004",
+            sex: "samiec ♂",
+            mutations: "98 zdrowie | 98 udźwig | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        carcha_12: {
+            name: "carcharodontosaurus ♂",
+            category: "Dinki",
+            price: "17.620dd",
+
+            image: "miniatury/carcharodontosaurus.png",
+            descriptionImage: "dinki/carcha_12.jpg",
+
+            alt: "carcharodontosaurus - osobnik dwunasty",
+
+            shortDescription: "carcharodontosaurus dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "936",
+            sex: "samiec ♂",
+            mutations: "98 zdrowie | 98 siła",
+            extra: "otrzymasz podstawowe siodło"
+        },
+
+        veilwyn_02: {
+            name: "veilwyn ♀",
+            category: "Dinki",
+            price: "1.800dd",
+
+            image: "miniatury/veilwyn.png",
+            descriptionImage: "dinki/veilwyn_02.jpg",
+
+            alt: "veilwyn - osobnik drugi",
+
+            shortDescription: "veilwyn dostępny w ofercie AMEBA'S TRIBE.",
+
+            level: "507",
+            sex: "samica ♀",
+            mutations: "2 tlen",
+            extra: "Brak"
         }
     };
 

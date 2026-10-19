@@ -64,11 +64,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const validCategories = [
         "all",
-        "dinki",
-        "bronie",
-        "ciuszki",
-        "narzedzia",
-        "siodla"
+        "carcha",
+        "rex",
+        "veilwyn",
+        "titanoboa",
+        "drake",
+        "x-concavenator",
+        "deinosuchus"
     ];
 
     const params = new URLSearchParams(window.location.search);
