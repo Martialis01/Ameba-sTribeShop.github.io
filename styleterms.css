@@ -1,0 +1,485 @@
+
+/* ===== STRONA REGULAMINU ===== */
+
+.rules-page {
+    --rules-bg: #171D18;
+    --rules-card: #1D241E;
+    --rules-card-hover: #242D25;
+    --rules-text: #E8E6DC;
+    --rules-muted: #A8AEA4;
+    --rules-accent: #A5B58A;
+    --rules-accent-hover: #C0CEAD;
+    --rules-border: rgba(165, 181, 138, 0.2);
+
+    min-height: 100vh;
+    padding-bottom: 100px;
+    background: var(--rules-bg);
+    color: var(--rules-text);
+    overflow: hidden;
+}
+
+/* ===== SEKCJA TYTUŁOWA ===== */
+
+.rules-hero {
+    position: relative;
+    padding: 100px 20px 75px;
+    text-align: center;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(17, 21, 17, 0.96) 0%,
+            rgba(29, 36, 30, 0.92) 60%,
+            rgba(23, 29, 24, 1) 100%
+        );
+    border-bottom: 1px solid var(--rules-border);
+}
+
+.rules-eyebrow {
+    margin-bottom: 22px;
+    color: var(--rules-accent);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.rules-hero h1 {
+    margin: 0 0 22px;
+    color: var(--rules-text);
+    font-size: clamp(36px, 5vw, 62px);
+    font-weight: 800;
+    line-height: 1.15;
+    letter-spacing: -1.5px;
+}
+
+.rules-intro {
+    max-width: 650px;
+    margin: 0 auto;
+    color: var(--rules-muted);
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+.rules-divider {
+    width: 80px;
+    height: 3px;
+    margin: 32px auto;
+    background: var(--rules-accent);
+    border-radius: 10px;
+}
+
+.rules-note {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    color: var(--rules-text);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.rules-note-icon {
+    color: var(--rules-accent);
+    font-size: 20px;
+}
+
+/* ===== GŁÓWNA SEKCJA REGULAMINU ===== */
+
+.rules-content {
+    width: min(100% - 40px, 900px);
+    margin: 0 auto;
+    padding-top: 65px;
+}
+
+.rules-section-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.rules-section-heading p {
+    flex-shrink: 0;
+    color: var(--rules-accent);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.rules-section-line {
+    width: 70px;
+    height: 1px;
+    background: var(--rules-border);
+}
+
+/* ===== KARTY Z ZASADAMI ===== */
+
+.rules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.rule-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 27px 30px;
+    background: var(--rules-card);
+    border: 1px solid var(--rules-border);
+    border-radius: 8px;
+    transition:
+        background 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.rule-card:hover {
+    background: var(--rules-card-hover);
+    border-color: rgba(165, 181, 138, 0.55);
+    transform: translateX(4px);
+}
+
+.rule-number {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    color: var(--rules-accent);
+    background: rgba(165, 181, 138, 0.09);
+    border: 1px solid var(--rules-border);
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.rule-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.rule-text h2 {
+    margin: 2px 0 10px;
+    color: var(--rules-text);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.rule-text p {
+    margin: 0;
+    color: var(--rules-muted);
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+/* ===== ZAKOŃCZENIE ===== */
+
+.rules-ending {
+    position: relative;
+    margin-top: 55px;
+    padding: 45px 25px;
+    text-align: center;
+    background:
+        linear-gradient(
+            135deg,
+            rgba(165, 181, 138, 0.09),
+            rgba(29, 36, 30, 0.7)
+        );
+    border: 1px solid var(--rules-border);
+    border-radius: 8px;
+}
+
+.rules-ending-symbol {
+    display: block;
+    margin-bottom: 15px;
+    color: var(--rules-accent);
+    font-size: 27px;
+}
+
+.rules-ending h2 {
+    margin: 0 0 15px;
+    color: var(--rules-text);
+    font-size: clamp(22px, 3vw, 30px);
+    font-weight: 800;
+}
+
+.rules-ending p {
+    max-width: 500px;
+    margin: 0 auto;
+    color: var(--rules-muted);
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.rules-ending-signature {
+    display: inline-block;
+    margin-top: 28px;
+    padding-top: 18px;
+    color: var(--rules-accent);
+    border-top: 1px solid var(--rules-border);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+/* ===== TABLETY ===== */
+
+@media (max-width: 900px) {
+    .rules-hero {
+        padding: 80px 25px 60px;
+    }
+
+    .rules-content {
+        width: min(100% - 40px, 750px);
+        padding-top: 50px;
+    }
+
+    .rule-card {
+        gap: 20px;
+        padding: 24px;
+    }
+}
+
+/* ===== TELEFONY ===== */
+
+@media (max-width: 550px) {
+    .rules-page {
+        padding-bottom: 60px;
+    }
+
+    .rules-hero {
+        padding: 65px 22px 45px;
+    }
+
+    .rules-eyebrow {
+        margin-bottom: 18px;
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .rules-hero h1 {
+        font-size: clamp(32px, 9vw, 42px);
+        letter-spacing: -0.8px;
+    }
+
+    .rules-intro {
+        font-size: 14px;
+        line-height: 1.8;
+    }
+
+    .rules-divider {
+        margin: 25px auto;
+    }
+
+    .rules-note {
+        gap: 8px;
+        font-size: 11px;
+        line-height: 1.6;
+    }
+
+    .rules-content {
+        width: calc(100% - 30px);
+        padding-top: 40px;
+    }
+
+    .rules-section-heading {
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+
+    .rules-section-heading p {
+        font-size: 10px;
+        letter-spacing: 2px;
+    }
+
+    .rules-section-line {
+        width: 35px;
+    }
+
+    .rules-list {
+        gap: 12px;
+    }
+
+    .rule-card {
+        gap: 15px;
+        padding: 20px 16px;
+    }
+
+    .rule-card:hover {
+        transform: none;
+    }
+
+    .rule-number {
+        width: 38px;
+        height: 38px;
+        font-size: 12px;
+    }
+
+    .rule-text h2 {
+        margin-top: 1px;
+        margin-bottom: 8px;
+        font-size: 16px;
+    }
+
+    .rule-text p {
+        font-size: 13px;
+        line-height: 1.8;
+    }
+
+    .rules-ending {
+        margin-top: 35px;
+        padding: 35px 20px;
+    }
+
+    .rules-ending h2 {
+        font-size: 23px;
+        line-height: 1.4;
+    }
+
+    .rules-ending p {
+        font-size: 13px;
+    }
+}
+
+/* ===== MAŁE TELEFONY ===== */
+
+@media (max-width: 360px) {
+    .rule-card {
+        gap: 12px;
+        padding: 17px 12px;
+    }
+
+    .rule-number {
+        width: 32px;
+        height: 32px;
+        font-size: 11px;
+    }
+
+    .rule-text h2 {
+        font-size: 15px;
+    }
+
+    .rule-text p {
+        font-size: 12px;
+    }
+}
+
+
+/* ===== POPRAWKA UKŁADU STRONY REGULAMINU ===== */
+
+main.rules-page {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.rules-page > .rules-hero,
+.rules-page > .rules-content {
+    display: block;
+    width: 100%;
+    min-width: 0;
+}
+
+.rules-page > .rules-hero {
+    order: 1;
+}
+
+.rules-page > .rules-content {
+    order: 2;
+    max-width: 940px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.rules-page .rules-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.rules-page .rule-card {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.rules-page .rule-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.rules-page .rules-ending {
+    display: block;
+    width: 100%;
+}
+
+@media (max-width: 550px) {
+    .rules-page > .rules-content {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+/* ===== PRZYCISK POWROTU DO SKLEPU ===== */
+
+.rules-back-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 30px;
+    padding: 15px 30px;
+
+    background: #A5B58A;
+    color: #171D18;
+
+    border: 1px solid #A5B58A;
+    border-radius: 5px;
+
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    transition:
+        background 0.25s ease,
+        color 0.25s ease,
+        border-color 0.25s ease,
+        transform 0.25s ease;
+}
+
+.rules-back-button span {
+    font-size: 19px;
+    line-height: 1;
+    transition: transform 0.25s ease;
+}
+
+.rules-back-button:hover {
+    background: transparent;
+    color: #C0CEAD;
+    border-color: #C0CEAD;
+    transform: translateY(-3px);
+}
+
+.rules-back-button:hover span {
+    transform: translateX(-4px);
+}
+
+@media (max-width: 550px) {
+    .rules-back-button {
+        width: 100%;
+        max-width: 280px;
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+}
