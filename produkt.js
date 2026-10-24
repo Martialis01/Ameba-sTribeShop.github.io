@@ -409,7 +409,7 @@ document.addEventListener("DOMContentLoaded", function () {
             category: "Dinki",
             price: "1.800dd",
 
-            image: "miniatury/veilwyn.png",
+            image: "miniatury/Veilwyn.png",
             descriptionImage: "dinki/veilwyn_02.jpg",
 
             alt: "veilwyn - osobnik drugi",
